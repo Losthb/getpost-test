@@ -1,0 +1,16 @@
+{
+  "agent_log_level": "debug",
+  "app_name": [
+    "hb_test_get-post"
+  ],
+  "licenseKey": "999-999-999",
+  "host": "redirect.networkbench.com",
+  "port": 443,
+  "ssl": true,
+  "proxy": "",
+  "proxy_host": "",
+  "proxy_port": "",
+  "proxy_user": "",
+  "proxy_pass": "",
+  "audit_mode": true
+}

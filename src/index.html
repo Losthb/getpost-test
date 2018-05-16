@@ -1,0 +1,21 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>get_post_test</title>
+</head>
+<body>
+<form action="http://127.0.0.1:8081/test_post" method="post">
+    post测试
+    nodejs:<input type="text" name="nodejs">
+    <input type="submit" value="Submit">
+</form>
+<a href="http://127.0.0.1:8081/test_get/url?nodejs=hello">get_url测试</a><br>
+<a href="http://127.0.0.1:8081/test_get/url/express?nodejs=hello&express=hello2&huangben=hello3">get_多个url测试</a>
+<form method="POST" action="http://127.0.0.1:8081/user">
+    <input type="hidden" name="_method" value="PUT"/>
+</form>
+
+<a href="http://127.0.0.1:8081/test_httpclient" method="get">httpclient</a>
+
+</body>
+</html>
